@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Tarefa 5</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body style="background-color: #f2f2f2;">
+    <header>
+        <!-- place navbar here -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://logospng.org/download/javascript/logo-javascript-1024.png" alt="JavaScript"
+                        width="35px">
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" aria-current="page">Home<span
+                                    class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/guavila31">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-5">
+                    <a class="btn btn-warning d-block" onclick="exercicio1()">Executar</a>
+                </div>
+                <div class="col-7">
+                    <span>Executando um Alert que informa as operações matematicas de duas variaveis</span>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-5">
+                    <a class="btn btn-warning d-block" onclick="exercicio2()">Executar</a>
+                </div>
+                <div class="col-7">
+                    <span>Executando um loop que mostre no Alert o valor de 10 a 100.</span>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-5">
+                    <a class="btn btn-warning d-block" onclick="exercicio3()">Executar</a>
+                </div>
+                <div class="col-7">
+                    <span>Crie uma variável que recebe o valor fixo 5. Mostre a tabuada desse número.</span>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-5">
+                    <a class="btn btn-warning d-block" onclick="exercicio4()">Executar</a>
+                </div>
+                <div class="col-1">
+                    <input type="text" class="form-control" name="inputTabuada" id="inputTabuada"
+                        aria-describedby="helpId" placeholder="">
+                </div>
+                <div class="col-6">
+                    <span>Digite um numero e mostre a tabuada desse número.</span>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-5">
+                    <a class="btn btn-warning d-block" onclick="exercicio5()">Executar</a>
+                </div>
+                <div class="col-1">
+                    <input type="text" class="form-control" name="inputTabuada2" id="inputTabuada2"
+                        aria-describedby="helpId" placeholder="">
+                </div>
+                <div class="col-1">
+                    <input type="text" class="form-control" name="inputTabuada3" id="inputTabuada3"
+                        aria-describedby="helpId" placeholder="">
+                </div>
+                <div class="col-5">
+                    <span>Digite um numero e mostre a tabuada desse número.</span>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-5">
+                    <a class="btn btn-warning d-block" onclick="exercicio6()">Executar</a>
+                </div>
+                <div class="col-7">
+                    <span>Percorra o array [1,2,3,4,5,6,7,8,9,10] e exiba apenas os valores pares</span>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-5">
+                    <a class="btn btn-warning d-block" onclick="exercicio7()">Executar</a>
+                </div>
+                <div class="col-md-7">
+                    <p>O custo de um carro novo ao consumidor é obtido com a seguinte fórmula:
+                        custo final = custo de fábrica + (custo de fábrica * percentual do distribuidor) + (custo de
+                        fábrica * percentual de impostos)
+                        O usuário terá uma tela para entrar com os valores:
+
+                        custo de fábrica => nome do input custo
+                        % distribuidor => nome do input distribuidor
+                        % impostos => nome do input impostos
+                        Valor final => nome do input valor </p>
+                    <div class="col-md-2">
+                        <label>Custo da fabrica: </label>
+                        <input type="number" name="custo" id="custo" class="form-control">
+                    </div>
+                    <div class="col-md-2">
+                        <label>Percentual do Distribuidor: </label>
+                        <input type="number" name="distribuidor" id="distribuidor" class="form-control">
+                    </div>
+                    <div class="col-md-2">
+                        <label>Percentual de Impostos: </label>
+                        <input type="number" name="impostos" id="impostos" class="form-control">
+                    </div>
+                    <div class="col-md-2" style="margin-top: 20px;">
+                        <label>Valor final:</label>
+                        <input type="number" name="valor" id="valor" class="form-control" disabled>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <script src="script.js">
+
+    </script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
